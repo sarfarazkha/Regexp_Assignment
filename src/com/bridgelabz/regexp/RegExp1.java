@@ -1,4 +1,4 @@
-package com.bridgelabz.regexp;
+package com.bridgelabz.reggexp;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
