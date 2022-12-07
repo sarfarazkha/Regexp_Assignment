@@ -3,7 +3,7 @@ package com.bridgelabz.regexp;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class RegExp8 {
+public class RegExp {
     static Pattern pattern = Pattern.compile("([0-9]*[A-Z]){3,}@[0-9a-zA-Z]$");
 
     public static void main(String[] args) {
@@ -17,7 +17,6 @@ public class RegExp8 {
             System.out.println("not matching");
 
         }
-
 
     }
 }
