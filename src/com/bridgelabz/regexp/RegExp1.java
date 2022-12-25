@@ -10,7 +10,7 @@ public class RegExp1 {
         String testString = "ABB";
         Matcher matcher = pattern.matcher(testString);
 
-        if (matcher.matches()) {
+        if (matcher.matches()) { 
             System.out.println("matches");
 
         } else {
