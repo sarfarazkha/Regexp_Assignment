@@ -11,7 +11,7 @@ public class RegExp2 {
         String testString = "khan";
         Matcher matcher = pattern.matcher(testString);
 
-        if (matcher.matches()) {
+        if (matcher.matches()) { 
             System.out.println("matches");
 
         } else {
