@@ -14,7 +14,7 @@ public class RegExp2 {
         if (matcher.matches()) {
             System.out.println("matches");
 
-        } else {
+        } else { 
             System.out.println("not matching");
         }
     }
