@@ -10,7 +10,7 @@ public class RegExp5 {
         String testString = "Sarfaraz786";
         Matcher matcher = pattern.matcher(testString);
 
-        if (matcher.matches()) {
+        if (matcher.matches()) { 
             System.out.println("matches");
 
         } else {
