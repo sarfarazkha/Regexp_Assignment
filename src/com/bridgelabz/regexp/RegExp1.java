@@ -4,6 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class RegExp1 {
+    
     static Pattern pattern = Pattern.compile("[A-Z]{3,}$");
 
     public static void main(String[] args) { 
